@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/learnBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#732196F3"
+                android:bufferType="spannable"
+                android:text="Learn" />
+
+            <Button
+                android:id="@+id/quizBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#73FFC107"
+                android:bufferType="normal"
+                android:text="Quiz" />
+
+            <Button
+                android:id="@+id/notesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#734CAF50"
+                android:bufferType="normal"
+                android:text="Notes" />
+
+            <Button
+                android:id="@+id/leaderboardBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#73F44336"
+                android:bufferType="normal"
+                android:text="Leaderboard" />
+
+            <Button
+                android:id="@+id/medalsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#73009688"
+                android:bufferType="normal"
+                android:text="Achievements" />
+
+            <Button
+                android:id="@+id/settingsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#73673AB7"
+                android:bufferType="normal"
+                android:text="Settings" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Welcome to the NBA Fans App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAvatar" />
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+To-Do List
+
+Get basic UI design complete [Marcus]
+  sign up page goes straight to login page
+    First Name 
+    Last Name
+    Age
+    Gender
+    Email
+    phone number
+    username
+      check arraylist for username
+    password
+      min 8
+      have a number 
+      if i can special character
+    pin
+    should we add points
+Get basic UI functioning [Marcus]
+Design user pages (avatar, badges) [Marcus]
+Add stuff to settings page [Marcus] (if i have time)
+Connect API [Nathan]
+Design & make function with questions & shit flashcard pages [Jason]
+  preferable to use API for flashcard but if it can't it can't
+  flashcards replace revision stage
+Design quizzes [Nathan]
+  don't forget multiple stages in quiz difficulty
+Figure out/implement star system [Jason]
+Recipe Page [Jason]
+  With Search and Sort Functionalities
+
+Don't forget to add comments in code so we all have understand what the code does and to make documentation easier

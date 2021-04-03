@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.edu.unsw.infs3634.gamifiedlearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LeaderBoardActivity"></activity>
+        <activity android:name=".GamesDetailActivity" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".ChangeAvatar" />
+        <activity android:name=".QuizEasy" />
+        <activity android:name=".QuizMedium" />
+        <activity android:name=".QuizHard" />
+        <activity android:name=".TeamsDetailActivity" />
+        <activity android:name=".GamesActivity" />
+        <activity android:name=".TeamsActivity" />
+        <activity android:name=".LearnMenuActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".PlayersDetailActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MedalActivity" />
+        <activity android:name=".PlayersActivity" />
+        <activity android:name=".LearnActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

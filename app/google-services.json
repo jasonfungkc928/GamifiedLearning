@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401939900458",
+    "firebase_url": "https://gamifiedlearning-group-24.firebaseio.com",
+    "project_id": "gamifiedlearning-group-24",
+    "storage_bucket": "gamifiedlearning-group-24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401939900458:android:cbdacd4b2824f7ea06fb53",
+        "android_client_info": {
+          "package_name": "au.edu.unsw.infs3634.gamifiedlearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401939900458-i5smkh66jl7b6022p1a7ab0oss1vit3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7pT9oW-hD0kOiO48e10X_kLbNDN7nqUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401939900458-i5smkh66jl7b6022p1a7ab0oss1vit3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
